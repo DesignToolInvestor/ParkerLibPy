@@ -4,4 +4,4 @@
 
 # There is no initiation activity, but this file is required.
 
-# This is a test
+# Could do from .LocUtil import * and so on
