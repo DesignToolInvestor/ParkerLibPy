@@ -85,7 +85,7 @@ def FindBiLinksSlow(nodeLoc) -> list[int,int]:
     link = []
     for k in range(n):
         for j in range(k+1,n):
-            if LocMath.Dist(nodeLoc[k],nodeLoc[j]) < 1:
+            if LocMath.Dist(nodeLoc[k], nodeLoc[j]) < 1:
                 link.append([k,j])
 
     return link
@@ -98,7 +98,7 @@ def FindDirLinksSlow(nodeLoc) -> list[int,int]:
     link = []
     for k in range(n):
         for j in range(k+1,n):
-            if LocMath.Dist(nodeLoc[k],nodeLoc[j]) < 1:
+            if LocMath.Dist(nodeLoc[k], nodeLoc[j]) < 1:
                 link.append([k,j])
                 link.append([j,k])
 
