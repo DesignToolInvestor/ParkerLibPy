@@ -3,8 +3,8 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["ParkerlibPy"]
+packages = ["ParkerLibPy"]
 
 [project]
-name = "ParkerlibPy"
+name = "ParkerLibPy"
 version = "0.2"
